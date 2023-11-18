@@ -1,0 +1,96 @@
+body {
+  height: 100%;
+  background-image: url("../src/assets/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 5%;
+}
+
+.navbar {
+  background-color: #0f1626;
+}
+
+.cardImagen {
+  width: 18rem;
+  margin-bottom: 2rem;
+  height: 19rem;
+  border-radius: 1rem;
+}
+
+.containerCards {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5rem;
+}
+
+.card {
+  height: auto;
+  align-items: center;
+  padding: 2rem;
+  width: 21rem;
+  border-radius: 2rem;
+  color: #f0f5f9;
+  box-shadow: none;
+  background: linear-gradient(90deg, #63070b 0%, #951520 88%, #ad2432 100%);
+  transform: scale(100%);
+  transition: all 0.5s ease-out;
+}
+.nombrePersonaje {
+  background-color: #f0f5f9;
+  border-radius: 2rem;
+  padding: 5px;
+  height: auto;
+  width: 13vw;
+  color: #0f1626;
+}
+.card:hover {
+  transform: scale(95%);
+  box-shadow: 0 0 50px #a280e6;
+}
+
+.buscador {
+  border: none;
+  width: 30%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.descripcion p {
+  width: 30%;
+  font-weight: 400;
+  background-color: #f0f5f9;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #0f1626;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imgMarvel {
+  width: 80%;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.footer {
+  width: 100%;
+  background-color: #0f1626;
+  padding: 1rem;
+}
+
+.footerImg {
+  width: 20rem;
+}
